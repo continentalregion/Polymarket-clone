@@ -1,8 +1,8 @@
-const Polymarket = artifacts.require("Polymarket");
+const gentrifees = artifacts.require("gefy");
 
 module.exports = async function (deployer) {
   await deployer.deploy(
-    Polymarket,
-    "0xe450830A28e479F8bd6f8C1706B1CAB160Cb313F"
+    gentrifees,
+    "0x8ecd3463bea3eC99B3BBf81cd8502D84E5A60179"
   );
 };
